@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  font-family: 'Exo', sans-serif;
+}
+
+.card {
+  padding: 32px;
+  width: 350px;
+  margin-bottom: 16px;
+}
+
+.filterBox{
+  margin: 16px;
+  padding: 8px;
+}
+
+.paginacion{
+  display: flex;
+  justify-content: center;
+}
+
+.buscador{
+  display: flex;
+  justify-content: center;
+}
+
+.reset{
+  display: flex;
+  justify-content: center;
+}
+
+.body{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+footer{
+  padding: 8px;
+  background-color: #f2f2f2;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
